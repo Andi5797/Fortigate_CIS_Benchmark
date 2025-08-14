@@ -1,0 +1,8 @@
+config system global
+	set admin-concurrent enable
+	set admin-https-redirect enable
+	set admin-lockout-duration 59
+    set admin-lockout-threshold 5
+	set admin-ssh-grace-time 120
+	set admintimeout 4
+	set strong-crypto enable
