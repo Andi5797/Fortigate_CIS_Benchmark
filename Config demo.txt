@@ -5,4 +5,6 @@ config system global
     set admin-lockout-threshold 5
 	set admin-ssh-grace-time 120
 	set admintimeout 4
+	set post-login-banner enable
+	set pre-login-banner enable
 	set strong-crypto enable
